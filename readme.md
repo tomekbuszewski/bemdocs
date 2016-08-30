@@ -284,7 +284,7 @@ camelCase odpowiadający klasie. W powyższym przykładzie będzie to `$block`, 
     /* ==== modificators */
     
     &--large { // modyfikator
-        #{block}__title { // używamy zmiennej $at-root, przez co uzyskujemy selektor .block__title 
+        #{$block}__title { // używamy zmiennej $at-root, przez co uzyskujemy selektor .block__title 
             font-size: 15em;
         }
     }
