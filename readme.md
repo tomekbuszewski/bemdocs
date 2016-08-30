@@ -16,6 +16,7 @@ a także mniej i bardziej rozbudowane przykłady użycia.
  tam kolejnych zagnieżdżeń jest bardzo proste, przez co bardzo szybko kod zaczyna być niepotrzebnie skomplikowany
  i trudny w użyciu.
 
+
  ## Bloki, elementy, modyfikatory
  
  BEM rozdziela wszystkie elementy wyglądu na trzy kategorie - bloki, ich elementy i modyfikatory. 
