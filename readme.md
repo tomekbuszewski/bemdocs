@@ -27,7 +27,9 @@ a także mniej i bardziej rozbudowane przykłady użycia.
  - **Modyfikator** to dodatkowy wariant danego bloku czy elementu. Może różnić się od podstawy w dość nieznaczny sposób.
  Jeżeli zmian jest dużo, warto rozważyć stworzenie nowego elementu lub nawet bloku.
  
+ 
  Tu przedstawiam prosty schemat wyglądu:
+ 
  
  ![bem](images/02.jpg "Schemat BEM")
  
