@@ -33,7 +33,7 @@ Tu przedstawiam prosty schemat wyglądu:
 
  ![bem](images/02.jpg "Schemat BEM")
 
- ## Zalety i wady BEMa
+## Zalety i wady BEMa
  
  BEM, tak samo jak każda inna metodologia, ma swoje zalety, ale też wady. W Internecie często można natknąć się
  na dużą listę tych pierwszych, a mało kiedy na *jakąkolwiek* listę drugich. 
