@@ -16,7 +16,7 @@ a także mniej i bardziej rozbudowane przykłady użycia.
  tam kolejnych zagnieżdżeń jest bardzo proste, przez co bardzo szybko kod zaczyna być niepotrzebnie skomplikowany
  i trudny w użyciu.
  
- ## Bloki, elementy i modyfikatory ##
+ ## Bloki, elementy i modyfikatory
  
  BEM rozdziela wszystkie elementy wyglądu na trzy kategorie - bloki, ich elementy i modyfikatory. 
   
@@ -68,6 +68,7 @@ przycisk i ikonki socjalne. Uznałem, że każdy element jest zależny od klasy 
 Na pierwszy rzut oka możemy wyróżnić:
 
 - awatar;
+- nazwę użytkownika;
 - opis;
 - przycisk do wysyłania wiadomości;
 - przycisk do facebooka;
@@ -140,7 +141,9 @@ Jak widzicie, kod ma dwa zagnieżdżenia - jedno dla elementów i drugie dla mod
 żeby nie tworzyć elementu w elemencie, co wydaje się być dość oczywiste przy okazji elementu `.user-card__social-wrapper`
 i jego dzieci.
 
-Oczywiście ten przykład będzie skompilowany do takich klas, jakich użyłem wyżej, w HTML.
+Wszystkie powstałe tutaj elementy można teraz wykorzystywać w każdym miejscu w naszym projekcie. Jednak - przynajmniej 
+dla mnie, jest coś nieprzyjemnego w korzystaniu z klasy `user-card__name` w opisie produktu czy czegoś podobnego. 
+Na szczęście możemy to łatwo obejść.
 
 ## Trudny przykład - karta użytkownika współdzieląca elementy
 
@@ -204,7 +207,7 @@ W tej chwili CSS wygląda tak:
 }
 ```
 
-### _article.scss 
+#### _article.scss 
 ```scss
 .article {
     ...
